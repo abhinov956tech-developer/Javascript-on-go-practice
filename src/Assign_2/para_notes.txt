@@ -1,0 +1,11 @@
+Key Improvements
+Avoid Scope Traps: Don’t define reusable functions inside other functions unless you intentionally want to limit their scope (e.g., closures).
+Name Parameters Clearly: Use names like operation or callback instead of calcFunction to avoid confusion.
+Keep Code Flat: Unnecessary nesting (like your calcFunction wrapper) makes code harder to debug and reuse.
+
+Common Pitfalls to Avoid
+Avoid Scope Traps: Don’t define reusable functions inside other functions unless you intentionally want to limit their scope (e.g., closures).
+Name Parameters Clearly: Use names like operation or callback instead of calcFunction to avoid confusion.
+Keep Code Flat: Unnecessary nesting (like your calcFunction wrapper) makes code harder to debug and reuse.
+
+Final Tip: Always structure code for reusability and clarity. Separate function definitions from testing logic! 🚀

@@ -1,0 +1,10 @@
+ Common Pitfalls to Avoid
+Post-Increment vs. Pre-Increment:
+
+count++ returns the old value, then increments.
+
+++count increments first, then returns the new value.
+Use the right one based on whether you need the old or new value.
+
+Closure Scope:
+Ensure count is declared inside createCounter (not in the returned object) to keep it private.
